@@ -10,5 +10,4 @@ for(let char of str)
     {
         result+=char.toLowerCase();
     }
-}
-console.log(result);
+}console.log(result);
