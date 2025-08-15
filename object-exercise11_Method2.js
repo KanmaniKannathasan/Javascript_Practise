@@ -4,7 +4,8 @@ function total(cart)
     console.log(Object.values(cart)) // [ 50, 25, 100 ]
     const result=Object.values(cart).reduce((acc,cv)=>
     {
-        return acc+cv;
+         return acc+cv;
+          
     },0);
     return result;
     

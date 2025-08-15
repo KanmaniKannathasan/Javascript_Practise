@@ -3,8 +3,9 @@ const strLength=(arr)=>
 {
     const result=arr.reduce(function(acc,cv)
     {
-        acc[cv]=cv.length;
-        return acc;
+         acc[cv]=cv.length;
+         return acc;
+         
          
     },{});
     return result;
