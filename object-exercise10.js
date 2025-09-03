@@ -1,6 +1,6 @@
 function swap(obj) {
   const result = {};
-  const temp = "";
+  //const temp = "";
   for (let keys in obj) {
     const newkey=obj[keys];
     const newvalue= keys;

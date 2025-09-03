@@ -5,4 +5,4 @@ while (n > 0) {
   result += digit;
   n = Math.floor(n / 10);
 }
-console.log(result);
+console.log(result); // 10

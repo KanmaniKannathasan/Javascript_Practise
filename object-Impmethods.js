@@ -7,7 +7,7 @@ console.log(Object.keys(obj1)); // ['a', 'b'] which is an array
 console.log(Object.values(obj1)); // [1 , 2] which is again an array
 
 //convert object to array - to check whether its is an
-//empty object since we dont have any lengthroerty in object 
+//empty object since we dont have any length property in object 
 //we convert to array to get length
 console.log(Object.entries(obj1)); //[['a',1], ['b', 2]]
 console.log(Object.entries(obj1).length);//2
@@ -22,7 +22,7 @@ console.log(Object.values(obj2).length); //0
 console.log(Object.keys(obj1).length == 0); // false
 console.log(Object.keys(obj2).length == 0); // true
 
-//check if a property(key) exists in an object
+//check if a property(key) exists in an object - only we can check the presence of keys in object and not te values
 console.log("a" in obj1); // true
 console.log("2" in obj1); //false
 

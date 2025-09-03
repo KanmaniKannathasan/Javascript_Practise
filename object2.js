@@ -16,3 +16,5 @@ console.log(obj.b);
 //remove the key a from the object
 delete obj.a;
 console.log(obj);
+
+

@@ -23,4 +23,4 @@ function frequency(str)
   console.log(key);
 }
 
-console.log(frequency('aaabcc'))
+console.log(frequency('aaabcc')) //b

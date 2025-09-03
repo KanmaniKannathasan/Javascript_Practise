@@ -10,4 +10,4 @@ for (let i = 0; i < str.length; i++) {
     result += str[i];
   }
 }
-console.log(result);
+console.log(result); //jAvAscrIpt
